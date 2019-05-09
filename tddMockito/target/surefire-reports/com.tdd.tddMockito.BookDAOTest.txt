@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.tdd.tddMockito.BookDAOTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.109 sec <<< FAILURE! - in com.tdd.tddMockito.BookDAOTest
+searchBookWithId2And390Pages  Time elapsed: 1.094 sec  <<< ERROR!
+org.mockito.exceptions.misusing.PotentialStubbingProblem: 
+
+Strict stubbing argument mismatch. Please check:
+ - this invocation of 'prepareStatement' method:
+    connection.prepareStatement(
+    "SELECT book.id,book.title,book.author,book.editorial,book.pages,book.age FROM book WHERE id = ?"
+);
+    -> at com.tdd.tddMockito.dao.BookDAO.searchBookById(BookDAO.java:38)
+ - has following stubbing(s) with different arguments:
+    1. connection.prepareStatement(
+    "SELECT book.id,book.title,book.author,book.editorial,book.pages FROM book WHERE id = ?"
+);
+      -> at com.tdd.tddMockito.BookDAOTest.initializeMockSearchBookWithId2And390Pages(BookDAOTest.java:83)
+Typically, stubbing argument mismatch indicates user mistake when writing tests.
+Mockito fails early so that you can debug potential problem easily.
+However, there are legit scenarios when this exception generates false negative signal:
+  - stubbing the same method multiple times using 'given().will()' or 'when().then()' API
+    Please use 'will().given()' or 'doReturn().when()' API for stubbing.
+  - stubbed method is intentionally invoked with different arguments by code under test
+    Please use default or 'silent' JUnit Rule (equivalent of Strictness.LENIENT).
+For more information see javadoc for PotentialStubbingProblem class.
+	at com.tdd.tddMockito.BookDAOTest.searchBookWithId2And390Pages(BookDAOTest.java:58)
+

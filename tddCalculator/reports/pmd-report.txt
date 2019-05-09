@@ -1,0 +1,38 @@
+src/main/java/com/tdd/tddCalculator/App.java:1:	Package name contains upper case characters
+src/main/java/com/tdd/tddCalculator/App.java:1:	Package name contains upper case characters
+src/main/java/com/tdd/tddCalculator/App.java:7:	Avoid short class names like App
+src/main/java/com/tdd/tddCalculator/App.java:7:	Avoid short class names like App
+src/main/java/com/tdd/tddCalculator/App.java:8:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/tdd/tddCalculator/App.java:8:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/tdd/tddCalculator/App.java:9:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/tdd/tddCalculator/App.java:9:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/tdd/tddCalculator/App.java:9:	Public method and constructor comments are required
+src/main/java/com/tdd/tddCalculator/App.java:9:	Public method and constructor comments are required
+src/main/java/com/tdd/tddCalculator/App.java:11:	System.out.println is used
+src/main/java/com/tdd/tddCalculator/App.java:11:	System.out.println is used
+src/main/java/com/tdd/tddCalculator/CalculatorBS.java:1:	Package name contains upper case characters
+src/main/java/com/tdd/tddCalculator/CalculatorBS.java:1:	Package name contains upper case characters
+src/main/java/com/tdd/tddCalculator/CalculatorBS.java:3:	Each class should declare at least one constructor
+src/main/java/com/tdd/tddCalculator/CalculatorBS.java:3:	Each class should declare at least one constructor
+src/main/java/com/tdd/tddCalculator/CalculatorBS.java:3:	Header comments are required
+src/main/java/com/tdd/tddCalculator/CalculatorBS.java:3:	Header comments are required
+src/main/java/com/tdd/tddCalculator/CalculatorBS.java:4:	Parameter 'number1' is not assigned and could be declared final
+src/main/java/com/tdd/tddCalculator/CalculatorBS.java:4:	Parameter 'number1' is not assigned and could be declared final
+src/main/java/com/tdd/tddCalculator/CalculatorBS.java:4:	Parameter 'number2' is not assigned and could be declared final
+src/main/java/com/tdd/tddCalculator/CalculatorBS.java:4:	Parameter 'number2' is not assigned and could be declared final
+src/main/java/com/tdd/tddCalculator/CalculatorBS.java:4:	Public method and constructor comments are required
+src/main/java/com/tdd/tddCalculator/CalculatorBS.java:4:	Public method and constructor comments are required
+src/main/java/com/tdd/tddCalculator/CalculatorBS.java:8:	Parameter 'dividendNumber1' is not assigned and could be declared final
+src/main/java/com/tdd/tddCalculator/CalculatorBS.java:8:	Parameter 'dividendNumber1' is not assigned and could be declared final
+src/main/java/com/tdd/tddCalculator/CalculatorBS.java:8:	Parameter 'dividerNumber2' is not assigned and could be declared final
+src/main/java/com/tdd/tddCalculator/CalculatorBS.java:8:	Parameter 'dividerNumber2' is not assigned and could be declared final
+src/main/java/com/tdd/tddCalculator/CalculatorBS.java:8:	Public method and constructor comments are required
+src/main/java/com/tdd/tddCalculator/CalculatorBS.java:8:	Public method and constructor comments are required
+src/test/java/com/tdd/tddCalculator/AppTest.java:1:	Package name contains upper case characters
+src/test/java/com/tdd/tddCalculator/AppTest.java:1:	Package name contains upper case characters
+src/test/java/com/tdd/tddCalculator/AppTest.java:10:	Each class should declare at least one constructor
+src/test/java/com/tdd/tddCalculator/AppTest.java:10:	Each class should declare at least one constructor
+src/test/java/com/tdd/tddCalculator/AppTest.java:18:	JUnit assertions should include a message
+src/test/java/com/tdd/tddCalculator/AppTest.java:18:	JUnit assertions should include a message
+src/test/java/com/tdd/tddCalculator/AppTest.java:18:	assertTrue(true) or similar statements are unnecessary
+src/test/java/com/tdd/tddCalculator/AppTest.java:18:	assertTrue(true) or similar statements are unnecessary

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.tdd.tddMockito.BookDAOTest" time="1.109" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Proyectos\Cursos\junitcaser\tddMockito"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\LENOVO\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:/Proyectos/Maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\LENOVO\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\LENOVO\bin;C:\Python27;C:\Python27\Scripts;C:\Windows\system32\WindowsPowerShell\v1.0;C:\HashiCorp\Vagrant\bin;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Oracle\VirtualBox;C:\Users\LENOVO\.dnx\runtimes\dnx-clr-win-x86.1.0.0-rc1-update1\bin;C:\Users\LENOVO\.dnx\bin;C:\Program Files\Nmap;C:\Windows\System32;C:\Program Files\Git\usr\bin;C:\Users\LENOVO\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Proyectos\Maven\bin;C:\Program Files\Oracle\VirtualBox;C:\Windows\System32\wbem;C:\Program Files\nodejs;C:\Program Files\Microsoft Windows Performance Toolkit;C:\PROGRAMAS\gradle-5.1.1\bin;C:\PROGRAMAS\sdk-tools-windows-4333796\emulator;C:\PROGRAMAS\sdk-tools-windows-4333796\emulator\bin;C:\PROGRAMAS\sdk-tools-windows-4333796\platforms-tools;C:\PROGRAMAS\sdk-tools-windows-4333796\tools;C:\PROGRAMAS\sdk-tools-windows-4333796\tools\bin;C:\Users\LENOVO\.dnx\runtimes\dnx-clr-win-x86.1.0.0-rc1-update1\bin;C:\Users\LENOVO\.dnx\bin;C:\Program Files\Nmap;C:\Windows\System32;C:\Program Files\Git\usr\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Proyectos\Maven\bin;C:\Program Files\Oracle\VirtualBox;C:\Users\LENOVO\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\LENOVO"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="LENOVO"/>
+    <property name="java.class.path" value="C:/Proyectos/Maven/boot/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_161\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Proyectos\Maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="searchBookWithId2And390Pages" classname="com.tdd.tddMockito.BookDAOTest" time="1.094">
+    <error message="&#10;Strict stubbing argument mismatch. Please check:&#10; - this invocation of &apos;prepareStatement&apos; method:&#10;    connection.prepareStatement(&#10;    &quot;SELECT book.id,book.title,book.author,book.editorial,book.pages,book.age FROM book WHERE id = ?&quot;&#10;);&#10;    -&gt; at com.tdd.tddMockito.dao.BookDAO.searchBookById(BookDAO.java:38)&#10; - has following stubbing(s) with different arguments:&#10;    1. connection.prepareStatement(&#10;    &quot;SELECT book.id,book.title,book.author,book.editorial,book.pages FROM book WHERE id = ?&quot;&#10;);&#10;      -&gt; at com.tdd.tddMockito.BookDAOTest.initializeMockSearchBookWithId2And390Pages(BookDAOTest.java:83)&#10;Typically, stubbing argument mismatch indicates user mistake when writing tests.&#10;Mockito fails early so that you can debug potential problem easily.&#10;However, there are legit scenarios when this exception generates false negative signal:&#10;  - stubbing the same method multiple times using &apos;given().will()&apos; or &apos;when().then()&apos; API&#10;    Please use &apos;will().given()&apos; or &apos;doReturn().when()&apos; API for stubbing.&#10;  - stubbed method is intentionally invoked with different arguments by code under test&#10;    Please use default or &apos;silent&apos; JUnit Rule (equivalent of Strictness.LENIENT).&#10;For more information see javadoc for PotentialStubbingProblem class." type="org.mockito.exceptions.misusing.PotentialStubbingProblem">org.mockito.exceptions.misusing.PotentialStubbingProblem: 
+
+Strict stubbing argument mismatch. Please check:
+ - this invocation of 'prepareStatement' method:
+    connection.prepareStatement(
+    "SELECT book.id,book.title,book.author,book.editorial,book.pages,book.age FROM book WHERE id = ?"
+);
+    -> at com.tdd.tddMockito.dao.BookDAO.searchBookById(BookDAO.java:38)
+ - has following stubbing(s) with different arguments:
+    1. connection.prepareStatement(
+    "SELECT book.id,book.title,book.author,book.editorial,book.pages FROM book WHERE id = ?"
+);
+      -> at com.tdd.tddMockito.BookDAOTest.initializeMockSearchBookWithId2And390Pages(BookDAOTest.java:83)
+Typically, stubbing argument mismatch indicates user mistake when writing tests.
+Mockito fails early so that you can debug potential problem easily.
+However, there are legit scenarios when this exception generates false negative signal:
+  - stubbing the same method multiple times using 'given().will()' or 'when().then()' API
+    Please use 'will().given()' or 'doReturn().when()' API for stubbing.
+  - stubbed method is intentionally invoked with different arguments by code under test
+    Please use default or 'silent' JUnit Rule (equivalent of Strictness.LENIENT).
+For more information see javadoc for PotentialStubbingProblem class.
+	at com.tdd.tddMockito.BookDAOTest.searchBookWithId2And390Pages(BookDAOTest.java:58)
+</error>
+  </testcase>
+</testsuite>
