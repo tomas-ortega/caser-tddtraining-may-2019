@@ -5,8 +5,13 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import javax.ejb.Stateless;
+import javax.enterprise.inject.Default;
+
 import com.tdd.tddMockito.domain.BookDTO;
 
+@Stateless(name="BookDAO")
+@Default
 public class BookDAO {
 	public BookDTO searchBookById(Integer idBook, Connection connection) 
 													throws SQLException {
@@ -25,8 +30,7 @@ public class BookDAO {
 			selectSQL.append("book.title,");
 			selectSQL.append("book.author,");
 			selectSQL.append("book.editorial,");
-			selectSQL.append("book.pages,");
-			selectSQL.append("book.age");
+			selectSQL.append("book.pages");
 			
 			selectSQL.append(" FROM ");
 			

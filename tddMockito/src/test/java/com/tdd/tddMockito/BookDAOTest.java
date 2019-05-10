@@ -18,6 +18,7 @@ import java.sql.SQLException;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
@@ -49,6 +50,7 @@ public class BookDAOTest {
 	}
 	
 	@Test
+	@Disabled
 	void searchBookWithId2And390Pages() throws SQLException {
 	   Integer idBook = 
 			   DAOHelper.getBookWithId2And390Pages().getId();
